@@ -3,23 +3,26 @@
 // Tên của ứng dụng
 define('APP_NAME', 'MindQuest');
 
+// tên folder con mà bạn đã đặt tên trong dự án
+define('SUB_DIR_NAME', '/OnThiTracNghiem');
+
 // Thư mục gốc của dự án, được tính toán từ vị trí của file 'config'
 define('BASE_DIR', dirname(__DIR__));
 
 // Thư mục chứa các file view của ứng dụng
-define('BASE_VIEWS_DIR', BASE_DIR . '/app/views');
+define('BASE_VIEWS_DIR', SUB_DIR_NAME . '/app/views');
 
 // Thư mục chứa các file model của ứng dụng
-define('BASE_MODELS_DIR', BASE_DIR . '/app/models');
+define('BASE_MODELS_DIR', SUB_DIR_NAME . '/app/models');
 
 // Thư mục chứa các file controller của ứng dụng
-define('BASE_CONTROLLERS_DIR', BASE_DIR . '/app/controllers');
+define('BASE_CONTROLLERS_URL', SUB_DIR_NAME . '/app/controllers');
 
 // Thư mục chứa các file tài sản (assets) như CSS, JavaScript, hình ảnh,...
-define('BASE_ASSETS_CSS', BASE_DIR . '/public/css');
+define('BASE_ASSETS_CSS', SUB_DIR_NAME . '/public/css');
 
 // Thư mục chứa các file cấu hình của dự án
-define('BASE_CONFIG_DIR', BASE_DIR . '/config');
+define('BASE_CONFIG_DIR', SUB_DIR_NAME . '/config');
 
 // URL gốc của ứng dụng
 define('BASE_URL', (isset($_SERVER['HTTPS']) ? "https" : "http") . "://" . $_SERVER['HTTP_HOST']);

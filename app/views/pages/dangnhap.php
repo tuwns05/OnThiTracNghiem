@@ -1,12 +1,11 @@
 <?php
+use function App\Includes\asset;
 
-use App\Core\App;
 ?>
 <html>
 <head>
     <title>Đăng nhập</title>
-    <link rel="stylesheet" type="text/css" href="\public\css\cssDangNhap.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="<?=BASE_ASSETS_CSS?>/cssDangNhap.css"></head>
 <body>
     <div class="container">
         <div class="heading">Đăng nhập</div>
@@ -14,7 +13,7 @@ use App\Core\App;
             <input required="" class="input" type="email" name="email" id="email" placeholder="E-mail">
             <input required="" class="input" type="password" name="password" id="password" placeholder="Password">
             <span class="forgot-password"><a href="#">Quên mật khẩu</a></span>
-            <span class="register-link">Chưa có tài khoản? <a href="/home/dangky">Đăng nhập</a></span>
+            <span class="register-link">Chưa có tài khoản? <a href="<?=SUB_DIR_NAME?>/home/dangky">Đăng nhập</a></span>
             <input class="login-button" type="submit" name="submit" value="Đăng nhập">  
         </form>
     </div>

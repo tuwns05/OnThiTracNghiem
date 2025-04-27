@@ -1,7 +1,8 @@
+
 <html>
     <head>
     <title>Đăng ký</title>
-    <link rel="stylesheet" type="text/css" href="\public\css\cssDangky.css">
+    <link rel="stylesheet" type="text/css" href="<?=BASE_ASSETS_CSS?>/cssDangky.css">
     </head>
     <body>
         <div class="container">
@@ -13,7 +14,7 @@
                 <input required="" class="input" type="password" name="repassword" id="repassword" placeholder="Nhập lại password">
                 <input class="login-button" type="submit" name="submit" value="Đăng ký">
             </form>
-            <span class="register-link">Đã có tài khoản? <a href= "/home/dangnhap">Đăng nhập</a></span>
+            <span class="register-link">Đã có tài khoản? <a href= "<?=SUB_DIR_NAME?>/home/dangnhap">Đăng nhập</a></span>
         </div>
     </body>
 </html>

@@ -1,6 +1,5 @@
 <?php
 namespace App\Core;
-
 class App {
     protected $controller = 'Home';
     protected $method = 'index';

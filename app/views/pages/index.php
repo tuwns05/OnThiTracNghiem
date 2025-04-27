@@ -1,8 +1,11 @@
+<?php
+
+use function App\Includes\asset;
+?>
 <html>
 <head>
     <title>Ôn tập và thi</title>
-    <link rel="stylesheet" type="text/css" href="\public\css\style.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="<?=BASE_ASSETS_CSS?>/style.css"></head>
 <body>
     <header class="header">
         <div class="logo">QUIZ</div>
@@ -10,7 +13,7 @@
             <a href="#">Trang chủ</a>
             <a href="#">Khám phá</a>
             <a href="#">Giới thiệu</a>
-            <a href="/home/dangnhap" id="loginBtn">Đăng nhập</a>
+            <a href="<?=SUB_DIR_NAME?>/home/dangnhap" id="loginBtn">Đăng nhập</a>
         </nav>
     </header>
     
