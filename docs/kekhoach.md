@@ -50,13 +50,13 @@
 
 **Giám sát học tập**
 
-- Theo dõi tiến độ học tập của lớp/cá nhân
+- Theo dõi tiến độ học tập của lớp/cá nhân(hoàn thành bao nhiêu % bài tập)
 - Xem thống kê kết quả bài tập/bài thi
 
 **Đánh giá & Phản hồi**
 
 - Chấm điểm tự động các bài thi trắc nghiệm
-- Gửi phản hồi cá nhân cho học sinh (có thể có hoặc không)
+- Gửi phản hồi, đánh giá bài thi cho từng cá nhân cho học sinh
 
 **Quản lý tài liệu**
 
