@@ -1,13 +1,12 @@
 <?php
 namespace App\Core;
-use Exception;
 
+use Exception;
 
 class Controller
 {
-    // Load a model using autoloading (expects proper namespace declaration in model file)
-    protected function model($model)
-    {
+    // tải model sử dụng autoloading (Autoloader.php)
+    protected function model(string $model): Model {
         $modelClass = 'App\\Models\\' . $model;
         if (class_exists($modelClass)) {
             return new $modelClass;
@@ -16,10 +15,9 @@ class Controller
         }
     }
 
-    // Load a view file located in the BASE_VIEWS_DIR directory
-    protected function view($view, $data = [])
-    {
-        $viewPath = BASE_DIR . '/app/views/' . $view; 
+    // tải file view từ vị trí thứ mục BASE_VIEWS_DIR và data cho view
+    protected function view(string $view, array $data = []): void {
+        $viewPath = BASE_VIEWS_DIR . '/app/views/' . $view; 
         if (file_exists($viewPath)) {
             extract($data);
             require_once $viewPath;
