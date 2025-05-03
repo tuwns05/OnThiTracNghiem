@@ -209,3 +209,5 @@
 | `is_correct`            | BOOLEAN       | Có đúng hay không    |
 
 ---
+
+Link sơ đồ diagram cho csdl trên [Diagram](https://dbdiagram.io/d/onthitracnghi-68160fa91ca52373f54ef56a)
