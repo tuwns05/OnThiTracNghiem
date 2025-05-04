@@ -39,7 +39,7 @@
 
 **Quản lý câu hỏi**
 
-- Tạo câu hỏi trắc nghiệm với nhiều định dạng (trên giao diện web)
+- Tạo câu hỏi trắc nghiệm với nhiều định dạng và được dùng cho cả bài tập và bài thi (trên giao diện web)
 - Thêm hình ảnh, công thức toán học vào câu hỏi (hỗ trợ hiển thị công thức toán học, các file âm thanh cho tiếng anh)
 
 **Quản lý đề thi**
