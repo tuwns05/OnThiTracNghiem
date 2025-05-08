@@ -1,3 +1,3 @@
 <?php
-echo "Thằng thắng bị  ra ngoài\n";    
+echo "Chúc mừng thằng thắng bị đá\n";    
 ?>
