@@ -1,3 +1,3 @@
 <?php
-echo "this is a ble";
+echo "Thằng thắng bị đá ra ngoài\n";    
 ?>
